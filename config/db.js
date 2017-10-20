@@ -1,4 +1,4 @@
-let DB_TYPE = 'sqlite';
+let DB_TYPE = 'pg';
 let client = '';
 let connectionDevelopment = {
   user: process.env.DB_USER,
